@@ -1,0 +1,17 @@
+<div id="App">
+  <img src="images/logo-universal.png" id="logo" alt="logo" />
+  <div id="result" class="result">{{ resultText }}</div>
+  <div id="input" class="input-box">
+    <input
+      id="name"
+      class="input"
+      [(ngModel)]="name"
+      autocomplete="off"
+      name="input"
+      type="text"
+    />
+    <button class="btn" (click)="greet()">Greet</button>
+  </div>
+</div>
+
+<router-outlet />

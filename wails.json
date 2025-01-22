@@ -1,0 +1,14 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "wails-demo-angualr",
+  "outputfilename": "wails-demo-angualr",
+  "frontend:build": "npx ng build",
+  "frontend:install": "npm install",
+  "frontend:dev:watcher": "npx ng serve",
+  "frontend:dev:serverUrl": "http://localhost:4200",
+  "wailsjsdir": "./frontend",
+  "author": {
+    "name": "Nelson Marro",
+    "email": "nelsonmarro99@gmail.com"
+  }
+}
