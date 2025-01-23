@@ -1,8 +1,6 @@
-module wails-demo-angualr
+module github.com/yourusername/yourproject
 
-go 1.21
-
-toolchain go1.23.5
+go 1.23.5
 
 require github.com/wailsapp/wails/v2 v2.9.2
 
